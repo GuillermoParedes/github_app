@@ -1,0 +1,11 @@
+.containerNotFound > .error-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.containerNotFound > .error-actions {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.containerNotFound > .error-actions .btn {
+  margin-right: 10px;
+}
