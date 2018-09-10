@@ -32,7 +32,7 @@ class Item extends Component {
                 Github
               </Button>
             </CardLink>
-            <CardLink href={`/_repos/${login}`}>
+            <CardLink href={`/github_app/_repos/${login}`}>
               <Button color="success" outline block>
                 Repositories
               </Button>

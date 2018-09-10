@@ -30,12 +30,13 @@ class Home extends Component {
   }
   redirectToUsers = event => {
     event.preventDefault();
-    this.props.history.push("/_users");
+    this.props.history.push("/github_app/_users");
   };
   redirectToRepos = event => {
     event.preventDefault();
-    this.props.history.push("/_repositories");
+    this.props.history.push("/github_app/_repos/GuillermoParedes");
   };
+
   render() {
     return (
       <Container>

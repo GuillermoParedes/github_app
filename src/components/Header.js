@@ -27,7 +27,7 @@ class Header extends Component {
     return (
       <div>
         <Navbar color="dark" dark expand="md">
-          <NavbarBrand href="/">Github APP</NavbarBrand>
+          <NavbarBrand href="/github_app">Github APP</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -35,7 +35,7 @@ class Header extends Component {
                 <NavLink href="/_login/">login</NavLink>
               </NavItem> */}
               <NavItem>
-                <NavLink href="/_users/">Users</NavLink>
+                <NavLink href="/github_app/_users/">Users</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/GuillermoParedes">

@@ -14,12 +14,24 @@ const Root = props => {
     <Router>
       <App>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/_users" component={Users} />
-          <Route exact path="/_repositories" component={Repositories} />
-          <Route exact path="/_repos/:login" component={Repositories} />
-          <Route exact path="/_login" component={Login} />
-          <Route exact path="/_signin/callback" component={Repositories} />
+          <Route exact path="/github_app" component={Home} />
+          <Route exact path="/github_app/_users" component={Users} />
+          <Route
+            exact
+            path="/github_app/_repositories"
+            component={Repositories}
+          />
+          <Route
+            exact
+            path="/github_app/_repos/:login"
+            component={Repositories}
+          />
+          <Route exact path="/github_app/_login" component={Login} />
+          <Route
+            exact
+            path="/github_app/_signin/callback"
+            component={Repositories}
+          />
           <Route path="*" component={NotFound} />
         </Switch>
       </App>
